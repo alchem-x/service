@@ -1,0 +1,22 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/main.js",
+    "format": "prettier --write --cache ."
+  },
+  "imports": {
+    "#server/*": "./server/*",
+    "#web/*": "./web/*"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "^5.1.0",
+    "prettier": "^3.5.3"
+  }
+}
