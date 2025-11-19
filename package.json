@@ -7,8 +7,7 @@
     "format": "prettier --write --cache ."
   },
   "imports": {
-    "#src/*": "./src/*",
-    "#web/*": "./web/*"
+    "#src/*": "./src/*"
   },
   "type": "module",
   "keywords": [],

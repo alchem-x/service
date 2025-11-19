@@ -8,7 +8,7 @@ const main = (): void => {
   const app = express()
 
   app.use(createAPIRouter())
-  app.use(express.static(resolve(import.meta.dirname, '..', 'web')))
+  app.use(express.static(resolve(import.meta.dirname, '..', 'public')))
 
   app.listen(APP_PORT, () => {
     console.log(`Service listening on port http://localhost:${APP_PORT}`)
